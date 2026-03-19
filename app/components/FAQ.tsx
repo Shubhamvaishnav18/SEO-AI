@@ -6,40 +6,47 @@ export default function FAQ({ faqs }: any) {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-
     <section className="bg-[#FFFFFF] py-24 px-6">
-      <div className="max-w-3xl mx-auto text-center">
+      <div className="max-w-2xl mx-auto text-center">
 
-        <h2 className="text-3xl md:text-5xl font-bold text-[#384150] mb-6">
+        {/* Heading */}
+        <h2 className="text-[45px] font-bold font-[Baloo_2] text-[#384150] mb-6">
           Frequently Asked Questions
         </h2>
 
-        <p className="text-[#333333] text-lg mb-12">
+        {/* Subtext */}
+        <p className="text-[#333333] text-[20px] font-[Inter] mb-14 tracking-[1.2]">
           We have listed some of the most frequent questions we get asked. If your
-          question is not listed here, <span className="text-blue-500">contact us</span>.
+          question is not listed here,{" "}
+          <span className="text-[#1766FF] cursor-pointer">contact us</span>.
         </p>
 
-        <div className="text-left divide-y">
+        {/* FAQ List */}
+        <div className="text-left border-t border-[#E5E7EB]">
 
           {faqs.map((item: any, i: number) => (
-            <div key={i} className="py-5">
+            <div key={i} className="border-b border-[#E5E7EB]">
 
+              {/* Question */}
               <button
                 onClick={() => setOpen(open === i ? null : i)}
-                className="w-full flex justify-between py-3 items-center font-bold text-lg text-[#5C626F] "
+                className="w-full flex justify-between items-center py-8 text-[20px] font-bold font-[Inter] text-[#5C626F]"
               >
                 {item.q}
-                <span className="ml-2 transform transition-transform duration-300 cursor-pointer">
+
+                <span className={`ml-2 transition-transform duration-500 ease-in-out cursor-pointer ${open === i ? "rotate-180" : "rotate-0"
+                  }`}>
                   {open === i ? (
-                    <ChevronUp size={20} className="text-gray-500" />
+                    <ChevronUp size={22} className="text-gray-500" />
                   ) : (
-                    <ChevronDown size={20} className="text-gray-500" />
+                    <ChevronDown size={22} className="text-gray-500" />
                   )}
                 </span>
               </button>
 
+              {/* Answer */}
               {open === i && (
-                <p className="mt-3 text-gray-600 text-md">
+                <p className="pb-6 pr-6 text-[16px] font-[Inter] text-[#5C626F] leading-relaxed">
                   {item.a}
                 </p>
               )}

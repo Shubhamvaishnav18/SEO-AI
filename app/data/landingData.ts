@@ -26,12 +26,12 @@ export const faqs = [
 ];
 
 export const languages = [
-  "Danish DK", "Dutch NL", "English GB US", "Estonian EE", "Finnish FI", "French FR",
-  "German DE", "Arabic AE", "Bengali BD", "Bulgarian BG", "Chinese CN", "Croatian HR",
-  "Czech CZ", "Hebrew IL", "Hindi IN", "Hungarian HU", "Icelandic IS", "Italian IT",
-  "Japanese JP", "Korean KR", "Romanian RO", "Russian RU", "Serbian RS", "Slovak SK",
-  "Slovenian SI", "Spanish ES", "Swedish SE", "Latvian LV", "Lithuanian LT", "Norwegian NO",
-  "Polish PL", "Portuguese PT", "Thai TH", "Turkish TR", "Ukrainian UA", "Vietnamese VN"
+  "Danish DK", "German DE", "Czech CZ", "Japanese JP", "Slovenian SI", "Polish PL",
+  "Dutch NL", "Arabic AE", "Hebrew IL", "Korean KR", "Spanish ES", "Portuguese PT",
+  "English GB US", "Bengali BD", "Hindi IN", "Romanian RO", "Swedish SE", "Thai TH",
+  "Estonian EE", "Bulgarian BG", "Hungarian HU", "Russian RU", "Latvian LV", "Turkish TR",
+  "Finnish FI", "Chinese CN", "Icelandic IS", "Serbian RS", "Lithuanian LT", "Ukrainian UA",
+  "French FR", "Croatian HR", "Italian IT", "Slovak SK", "Norwegian NO", "Vietnamese VN"
 ];
 
 export const features = [

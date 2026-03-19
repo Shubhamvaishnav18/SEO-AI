@@ -10,15 +10,15 @@ export default function Features({
   features: FeatureItem[];
 }) {
   return (
-    <section className="bg-[#FFF1F2] py-24 px-6">
+    <section className="bg-[#FFF1F2] py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
 
-        <h2 className="text-3xl md:text-4xl font-bold text-[#384150] mb-6 leading-tight">
+        <h2 className="text-[45px] md:text-[45px] font-bold font-[Baloo_2] text-[#384150] mb-5 leading-[1.0]">
           Made for autopilot, designed <br />
           for full control
         </h2>
 
-        <p className="text-[#6b7280] text-md max-w-xl mx-auto mb-16">
+        <p className="text-[#636363] text-[18px] font-[Inter] font-light max-w-2xl mx-auto mb-16 leading-[1.6]">
           Our mission is to automate SEO end to end, while still giving you the option to
           stay in control and go deeper when needed.
         </p>
@@ -29,13 +29,13 @@ export default function Features({
           {features.map((item) => (
             <div
               key={item.title}
-              className="bg-white rounded-xl p-6 text-left shadow-md hover:shadow-xl transition duration-300"
+              className="bg-white rounded-xl pt-[40px] px-[30px] text-left shadow-md hover:shadow-xl transition duration-300"
             >
-              <h3 className="text-xl font-bold text-[#384150] mb-2">
+              <h3 className="text-[25px] font-[Baloo_2] font-bold text-[#384150] mb-[10px]">
                 {item.title}
               </h3>
 
-              <p className="text-[#6b7280] mb-6">
+              <p className="text-[#374151] text-[16px] font-[Inter] mb-6">
                 {item.desc}
               </p>
 
@@ -43,7 +43,7 @@ export default function Features({
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="w-[200px] md:w-[220px]"
+                  className="w-[310px] md:w-[287px] pt-[30px] pb-[20px]"
                 />
               </div>
             </div>
