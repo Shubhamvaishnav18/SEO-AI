@@ -8,25 +8,25 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-[14px] font-[Inter] mb-4">Product</h3>
             <ul className="text-[#959595] text-[14px] font-[Inter] space-y-3 cursor-pointer">
-              <li>Home</li>
-              <li>Pricing</li>
-              <li>Product Feed Optimization</li>
-              <li>Demo</li>
-              <li>SEO News</li>
-              <li>Contact</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Home</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Pricing</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Product Feed Optimization</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Demo</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">SEO News</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Contact</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white font-semibold text-[14px] font-[Inter] mb-4">Resources</h3>
             <ul className="text-[#959595] text-[14px] font-[Inter] space-y-3 cursor-pointer">
-              <li>Webinars</li>
-              <li>On-Demand Training</li>
-              <li>SEO Speaker</li>
-              <li>Live Demo Sessions</li>
-              <li>SEO Glossary</li>
-              <li>SEO Experts</li>
-              <li>Free AI SEO Tools</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Webinars</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">On-Demand Training</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">SEO Speaker</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Live Demo Sessions</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">SEO Glossary</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">SEO Experts</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Free AI SEO Tools</li>
             </ul>
           </div>
 
@@ -35,43 +35,43 @@ export default function Footer() {
               Free Tools (Popular)
             </h3>
             <ul className="text-[#959595] text-[14px] font-[Inter] space-y-3 mb-4 cursor-pointer">
-              <li>AI Content Detector</li>
-              <li>AI Paraphrasing Tool</li>
-              <li>AI Title Generator</li>
-              <li>Topic Cluster Tool</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">AI Content Detector</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">AI Paraphrasing Tool</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">AI Title Generator</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Topic Cluster Tool</li>
             </ul>
 
             <h3 className="text-white font-semibold text-[14px] font-[Inter] mb-2">
               Free Tools (Staff Picks)
             </h3>
             <ul className="text-[#959595] text-[14px] font-[Inter] space-y-3 cursor-pointer">
-              <li>AI Keyword Tool</li>
-              <li>Internal Linking Tool</li>
-              <li>Keyword Cannibalization</li>
-              <li>Keyword Rank Checker</li>
-              <li>Keyword Search Volume</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">AI Keyword Tool</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Internal Linking Tool</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Keyword Cannibalization</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Keyword Rank Checker</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Keyword Search Volume</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white font-semibold text-[14px] font-[Inter] mb-4">Features</h3>
             <ul className="text-[#959595] text-[14px] font-[Inter] space-y-3 cursor-pointer">
-              <li>Content Analysis</li>
-              <li>Meta Descriptions</li>
-              <li>SEO Audits</li>
-              <li>Semantic SEO</li>
-              <li>SEO Writing</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Content Analysis</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Meta Descriptions</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">SEO Audits</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Semantic SEO</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">SEO Writing</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white font-semibold text-[14px] font-[Inter] mb-4">Get Help</h3>
             <ul className="text-[#959595] text-[14px] font-[Inter] space-y-3 cursor-pointer">
-              <li>Sign In</li>
-              <li>Support & FAQ</li>
-              <li>Terms</li>
-              <li>Privacy Policy</li>
-              <li>Try for FREE</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Sign In</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Support & FAQ</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Terms</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Privacy Policy</li>
+              <li className="hover:text-[#ff4895] transition-colors duration-300 ease-in-out">Try for FREE</li>
             </ul>
           </div>
 
@@ -83,7 +83,7 @@ export default function Footer() {
             <img
                   src="/footer.png"
                   alt="footer"
-                  className="w-[125px] md:w-[125px]"
+                  className="w-[125px] md:w-[125px] cursor-pointer"
                 />
           </div>
 

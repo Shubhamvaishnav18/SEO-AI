@@ -23,6 +23,10 @@ export const faqs = [
     q: "How fast will I see results?",
     a: "Usually within a few weeks.",
   },
+  {
+    q: "Can agencies use SEO.AI for client projects?",
+    a: "Absolutely. SEO.AI is perfect for agencies and freelancers working on client SEO, and many of our customers are agencies.",
+  },
 ];
 
 export const languages = [
