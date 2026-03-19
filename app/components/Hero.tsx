@@ -23,7 +23,7 @@ export default function Hero() {
             Try it for $1
           </button>
 
-          <p className="text-[16px] text-black font-[Baloo_2] font-[Italic] opacity-70">
+          <p className="text-[16px] text-black font-[Baloo_2] italic opacity-70">
             ✓ 14 day money back guarantee &nbsp; ✓ Setup in 10 minutes &nbsp; ✓ Human support
           </p>
 
@@ -53,14 +53,14 @@ export default function Hero() {
             </p>
 
             <p>
-              <span className="bg-[#FCE500] text-[18px] text-[#636363] font-[Inter] font-light py-1">
+              <span className="bg-[#FCE500] text-[18px] text-[#636363] font-[Inter] italic font-light py-1">
                 SEO shouldn’t be another task on your to-do list.
               </span>
             </p>
 
             <p className="text-[#636363] font-light">
               Yet{" "}
-              <span className="font-semibold text-[18px] font-[Inter] text-black">
+              <span className="font-semibold italic text-[18px] text-black">
                 without consistent optimization and fresh content, your website stays invisible
               </span>{" "}
               while competitors take the traffic.
@@ -70,7 +70,7 @@ export default function Hero() {
               That’s why we built SEO.AI.
             </p>
 
-            <p className="font-semibold text-[18px] font-[Inter] font-light text-black">
+            <p className="font-semibold text-[18px] italic font-light text-black">
               To handle keyword research, content creation, and publishing for you, automatically.
             </p>
 

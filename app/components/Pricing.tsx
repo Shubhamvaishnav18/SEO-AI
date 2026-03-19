@@ -121,7 +121,7 @@ export default function Pricing() {
 
         </div>
 
-        <p className="mt-7 text-[18px] text-[#333333] font-[Inter] Italic">
+        <p className="mt-7 text-[18px] text-[#333333] font-[Inter] italic">
           Save 40% with annual payment. All prices exclude VAT.
         </p>
 

@@ -113,7 +113,7 @@ export default function Process() {
           <button className="bg-[#57CE5E] text-white px-16 py-3 rounded-full text-[20px] font-[Inter] font-semibold cursor-pointer">
             Try SEO.AI now →
           </button>
-          <p className="text-[14px] text-[#333333] font-[Inter] mt-4">
+          <p className="text-[14px] text-[#333333] font-[Inter] italic mt-4">
             And try hands-off SEO for your self
           </p>
         </div>
